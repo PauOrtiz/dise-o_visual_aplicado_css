@@ -1,10 +1,19 @@
 .contenedor{
-  display:flexbox; 
+  display:flex; 
+  justify-content:center;
+  align-items:stretch;
+}
+.img{
+  width:100%;
+  height:auto;
 }
 .centro{
   position:absolute;
-  text-align:center;
-  top:50%;
-  left:50%;
-  transform:translate(-50%, -50%);
+  margin:0;
+  text-align:center; 
+  font-family: 'Anton', sans-serif;
+  letter-spacing:13px;
+  font-size: 3rem;
+  color:#870521;
+  text-shadow: 3px 9px 6px #FFF6E4;  
 }
