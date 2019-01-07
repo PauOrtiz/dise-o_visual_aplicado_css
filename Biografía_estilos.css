@@ -60,3 +60,10 @@ footer{
   font-size:17px;
  }
 }
+@media(max-width:639px){
+#foto{
+  width:100%;
+  margin-top:1px;
+  margin-left:1%;
+  }
+}
